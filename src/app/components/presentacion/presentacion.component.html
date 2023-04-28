@@ -1,0 +1,20 @@
+<!--Presentacion-->
+<section id="presentacion" *ngFor="let perso of persona">
+<div class="conteiner">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <img [src]="'/assets/img/eveperfil.jpg'" class="img-fluid" alt="foto de perfil"title="..." id="fotoperfil">
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <p id="nombre">{{perso.nombre}} {{perso.apellido}}</p>
+            <p>{{perso.tituloperfil}}</p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <span>
+            <h1>Acerca de mi</h1>
+            <p>{{perso.presentacion}}</p>
+            </span>
+        </div>
+    </div>
+</div>
+</section>

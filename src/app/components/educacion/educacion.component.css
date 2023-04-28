@@ -1,0 +1,10 @@
+#educacion{
+    background-color: rgb(176, 250, 255);
+    padding: 20px;
+}
+.row{
+    padding: 20px;
+}
+h1,h3{
+    display: inline;
+}

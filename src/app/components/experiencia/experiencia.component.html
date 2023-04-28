@@ -1,0 +1,21 @@
+<!--Experiencia-->
+<div id="experiencia">
+    <div class="row">
+        <h1>Experiencia Laboral</h1>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11" *ngFor="let expe of experiencias">
+          <ul>
+            <li>
+              <h1>{{expe.trabajo}}</h1> - <h3>{{expe.periodo_exp}}</h3>
+            </li>
+            <p>{{expe.descripcion_exp}}</p>
+          <p>{{expe.puesto}}</p>
+          </ul>
+        <img [src]="'/assets/img/imagen tadiseños.jpg'" alt="logo grafica" width="10%" height="">
+        <br>
+        <br>
+        <br>
+        <br>
+       <img [src]="'/assets/img/d-center.png'" alt="logo call" width="10%" height="">
+    </div>
+</div>
